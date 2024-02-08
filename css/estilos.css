@@ -3,3 +3,21 @@
 .color3 {color: #ff9508;}
 .color4 {color: #ffee61;}
 .color5 {color: #fffbcd;} */
+
+* {
+    padding: absolute;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*
+nav {
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 5%;
+    height: 130px;
+    background-color: #0f6f01 ;
+}
