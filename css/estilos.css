@@ -23,11 +23,11 @@ nav {
 }
 
 h1 {
-  width: 100px; 
+  width: 100px; /* px, %, vh */
 }
 
 img {
-    width: 100;
+  width: 100px;
 }
 * {
   box-sizing: border-box;
