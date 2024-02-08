@@ -4,21 +4,15 @@
 .color4 {color: #ffee61;}
 .color5 {color: #fffbcd;} */
 
-* {
-  padding: absolute;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 nav {
-  position: absolute;
+  /*   position: absolute; */
   z-index: 10;
   left: 0;
   right: 0;
   top: 0;
   font-family: Arial, Helvetica, sans-serif;
   padding: 0 5%;
-  height: 130px;
+  height: 90px;
   background-color: #0f6f01;
 }
 
@@ -26,12 +20,13 @@ h1 {
   width: 100px; /* px, %, vh */
 }
 
-img {
+.imagen img {
   width: 200px;
-  margin: 35px;
-  }
-* {
-  box-sizing: border-box;
+  margin: 5px;
+  padding: auto;
+  position: relative;
+  top: 12px;
+  right: 80px;
 }
 
 .cajauno {
