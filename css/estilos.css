@@ -1,39 +1,34 @@
-
 /* .color1 {color: #1e2c06;}
 .color2 {color: #0f6f01;}
 .color3 {color: #ff9508;}
 .color4 {color: #ffee61;}
 .color5 {color: #fffbcd;} */
 
-*{
-    padding: absolute;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: absolute;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 nav {
-    position: absolute;
-    z-index: 10;
-    left: 0;
-    right: 0;
-    top: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0 5%;
-    height: 130px;
-    background-color: #0f6f01 ;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 5%;
+  height: 130px;
+  background-color: #0f6f01;
 }
 
 h1 {
-    width: 4
-    00;
-
-
+  width: 400px;
 }
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-
 
 .cajauno {
   background: red;
