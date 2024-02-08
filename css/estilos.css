@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /* .color1 {color: #1e2c06;}
 .color2 {color: #0f6f01;}
 .color3 {color: #ff9508;}
@@ -9,7 +10,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-/*
+
 nav {
     position: absolute;
     z-index: 10;
@@ -21,3 +22,12 @@ nav {
     height: 130px;
     background-color: #0f6f01 ;
 }
+
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(214, 241, 239);
+}
+
+>>>>>>> Stashed changes
