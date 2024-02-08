@@ -26,9 +26,7 @@ nav {
 *{
     box-sizing: border-box;
 }
-body {
-    background-color: rgb(214, 241, 239);
-}
+
 
 .cajauno {
   background: red;
