@@ -27,8 +27,9 @@ h1 {
 }
 
 img {
-  width: 100px;
-}
+  width: 200px;
+  margin: 35px;
+  }
 * {
   box-sizing: border-box;
 }
