@@ -39,11 +39,12 @@ h1 {
   display: inline-block;
   margin: 0 0 0 15px;
   position: relative;
+  right: 299px;
   
 }
 
 a {
-  color: white;
+  color: rgb(128, 128, 128);
   text-decoration: none;
 }
 
@@ -52,5 +53,5 @@ a {
 }
 
 .cajauno {
-  background: red;
+  background: rgb(248, 0, 0);
 }
