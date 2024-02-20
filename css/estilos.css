@@ -70,6 +70,28 @@ a {
 .menu a:hover{
   color: rgb( 231,198,47);
 }
+
+.boton{
+  position: absolute;
+  left: 92%;
+  bottom: 45px;
+
+}
+
+label, input{
+  display: block;
+}
+
+.modal {
+  position: relative;
+  bottom: 70px;
+}
+
+.modal-content{
+  position: relative;
+  top: 20px;
+}
+
 /*     */
 .pie-pagina{
   width: 100%;
