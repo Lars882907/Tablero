@@ -90,6 +90,12 @@ a {
   background: rgb(248, 0, 0);
 }
 
+@media screen and (win-width: 480px) {
+  body{
+    background-color: lightcoral;
+  }
+}
+
 
 /*    
 h5{
