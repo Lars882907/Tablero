@@ -4,14 +4,17 @@
 .color4 {color: #ffee61;}
 .color5 {color: #fffbcd;} */
 
-* body{
+body{
   width: auto;
- /*  background-color: #dee9dad3;
-  margin-right: 750px; 
+  
+  /*
+   margin-right: 750px; 
   margin-left: 0px;
   padding-left: 0px;
   box-sizing: border-box; */
  }
+
+
 
 
 nav {
@@ -47,8 +50,8 @@ h1 {
 
 .menu {
   position: relative;
-  /* bottom: 105px;
-  left: 750px;*/
+  margin-left: 45%;
+  bottom: 105px;
 } 
 
 .menu li {
@@ -56,7 +59,7 @@ h1 {
   margin: 0 0 0 15px;
   position: relative;
   right: 0px;
-  
+  bottom: 5px;
 }
 
 a {
@@ -86,15 +89,14 @@ a {
   }
 
 
-.cajauno {
-  background: rgb(248, 0, 0);
-}
+/* 
+  @media screen and (min-width: 960px) {
+    body{
+      background-color: rgb(226, 107, 107);
 
-@media screen and (win-width: 480px) {
-  body{
-    background-color: lightcoral;
+    }
   }
-}
+ */
 
 
 /*    
