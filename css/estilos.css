@@ -90,7 +90,31 @@ label, input{
 .modal-content{
   position: relative;
   top: 20px;
+  padding-bottom: 10%;
+
 }
+
+.ingreso-falla {
+  padding-left: 0.5%;
+
+}
+.freporte {
+  position: float;
+  padding-bottom: 0.9%;
+  width: 31%;
+  padding-left: 10px;
+}
+
+.fsolucion {
+   width: 31%;
+  padding-left: 10px;
+}
+
+.estado-select {
+  width: 10%;
+
+}
+
 
 /*     */
 .pie-pagina{
