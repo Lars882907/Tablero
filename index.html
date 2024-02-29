@@ -65,47 +65,43 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <h3 class="modal-title fs-5" id="exampleModalLabel">Diligencie  la falla</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <form>
-            <!-- <label>Ingrese Falla:</label>  
-            <input type="text" name="" id=""> -->
-            
+            <div>
             <label for="" class="ingreso-falla">Ingrese Falla</label>
             <input type="text" id="ingresefalla" class="form-control" aria-describedby="passwordHelpBlock">
             </div>
-            
-            <!-- <label>Fecha Reporte:</label>  
-            <input type="date" name="" id="">-->
             
             <div class="freporte">
               <label for="exampleFormControlInput1" class="form-label">Fecha Reporte</label>
               <input type="date" class="form-control" id="#" >
             </div>
 
-            <!-- <label>Fecha Cerrado:</label>  
-            <input type="date" name="" id=""> -->
-             
             <div class="fsolucion">
               <label for="exampleFormControlInput1" class="form-label">Fecha solucion</label>
               <input type="date" class="form-control" id="#" >
             </div>
 
-             
+
+            
             <label class="estado-select">Estado:</label>  
-            <select class="" aria-label="Default select example">
-              <option selected>Seleccione una opcion</option>
+            <div class="selectopt">
+            <select class="form-select"  aria-label="Default select example">
+              <option selected>seleccionar una opcion</option>
               <option value="1">En Curso</option>
               <option value="2">Finalizado</option>
-             </select>
-
+              <option value="3">Three</option>
+            </select>
+            </div>
+            
         </form>
       </div>
       <div class="modal-footer">
         <!--<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
-        <button type="button" class="btn btn-success">Guardar Reporte</button>
+        <button type="button" class="btn btn-success" id="boton-guardar">Guardar Reporte</button>
       </div>
     </div>
   </div>

@@ -16,7 +16,6 @@ body{
 
 
 
-
 nav {
   /*   position: absolute; */
   z-index: 10;
@@ -90,30 +89,37 @@ label, input{
 .modal-content{
   position: relative;
   top: 20px;
-  padding-bottom: 10%;
+  padding-bottom: 0%;
 
 }
 
-.ingreso-falla {
-  padding-left: 0.5%;
-
+#ingresefalla {
+  width: 90%;
 }
+
 .freporte {
   position: float;
-  padding-bottom: 0.9%;
-  width: 31%;
-  padding-left: 10px;
+  padding-bottom: 2%;
+  width: 39%;
+  padding-left: 0px;
 }
 
 .fsolucion {
-   width: 31%;
-  padding-left: 10px;
+   width: 39%;
+  padding-left: 0px;
+  padding-bottom: 3%;
 }
 
-.estado-select {
-  width: 10%;
+.form-select{
+  padding-left: 5%;
+  padding-bottom: 3%;
+ }
 
+.selectopt {
+  padding-left: 0%;
+  padding-right: 60%;
 }
+
 
 
 /*     */
